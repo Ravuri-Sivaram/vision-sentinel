@@ -114,4 +114,14 @@ docker-compose up --build
   Applied ONNX quantization to enable efficient inference on CPU-only environments  
 
 - **Cloud Readiness:**  
-  Fully containerized with Docker, making it deployment-ready for AWS ECS, GCP Cloud Run, or similar platforms  
+  Fully containerized with Docker, making it deployment-ready for AWS ECS, GCP Cloud Run, or similar platforms
+
+  ---
+
+## 🛠️ Future Roadmap & Upcoming Updates
+Vision Sentinel is designed for continuous evolution. The following features are currently in development:
+
+- **🔄 CI/CD Integration:** Implementing GitHub Actions for automated linting, unit testing of the inference logic, and automated Docker builds on every push.
+- **🧠 Generative AI (VLM) Adaptation:** Integrating a lightweight Vision-Language Model (like Moondream) to provide natural language scene descriptions triggered by specific YOLO detections.
+- **☁️ Full Cloud Deployment:** Transitioning the stack to AWS (ECS/App Runner) with a stateless architecture using AWS S3 for result persistence.
+- **📊 Metadata Persistence:** Integrating a PostgreSQL database to log historical detection data and system performance metrics.
